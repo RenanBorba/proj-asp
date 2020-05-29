@@ -1,0 +1,158 @@
+﻿@model ProjetoEstagioSupDDD.MVC.Models.FornecedorViewModel
+
+@{
+    ViewBag.Title = "Excluir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Excluir Fornecedor</h2>
+<h3>Você realmente deseja exluir o fornecedor @Model.DescricaoFornecedor?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DescricaoFornecedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescricaoFornecedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeResponsavel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeResponsavel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoPessoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoPessoa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cpf)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cpf)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InscricaoEstadual)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InscricaoEstadual)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cnpj)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cnpj)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cep)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cep)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cidade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cidade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Complemento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Complemento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoTelefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoTelefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroTelefone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroTelefone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AcessoWpp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AcessoWpp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FornecedorAtivo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FornecedorAtivo)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Confirmar" class="btn btn-sm" /> |
+
+        @Ajax.ActionLink("Voltar a lista de Fornecedores", "Index", "Fornecedores",
+             null, new AjaxOptions()
+             {
+                 HttpMethod = "get",
+                 InsertionMode = InsertionMode.Replace
+             })
+    </div>
+    }
+</div>
+<hr />

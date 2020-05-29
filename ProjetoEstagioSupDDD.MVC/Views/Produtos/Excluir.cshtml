@@ -1,0 +1,95 @@
+﻿@model ProjetoEstagioSupDDD.MVC.Models.ProdutoViewModel
+
+@{
+    ViewBag.Title = "Excluir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Excluir</h2>
+<h3>Você realmente deseja exluir o serviço @Model.DescricaoProduto</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Fornecedores.DescricaoFornecedor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fornecedores.DescricaoFornecedor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Marcas.DescricaoMarca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marcas.DescricaoMarca)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoProdutos.DescricaoTipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TipoProdutos.DescricaoTipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescricaoProduto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescricaoProduto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorCusto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValorCusto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorVenda)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValorVenda)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastroProduto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastroProduto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataValidade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataValidade)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Confirmar" class="btn btn-sm" /> |
+           
+            @Ajax.ActionLink("Voltar a lista de Funcionários", "Index", "Funcionarios",
+               null, new AjaxOptions()
+               {
+                   HttpMethod = "get",
+                   InsertionMode = InsertionMode.Replace
+               })
+        </div>
+    }
+</div>
+<hr />

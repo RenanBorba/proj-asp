@@ -1,0 +1,176 @@
+﻿@model ProjetoEstagioSupDDD.MVC.Models.PedidoViewModel
+
+@{
+    ViewBag.Title = "Excluir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Excluir</h2>
+<h3>Você realmente deseja exluir o pedido do cliente @Model.IdCliente?</h3>
+<div>
+    <h4>PedidoViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Clientes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdCliente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClienteNaoCadastrado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClienteNaoCadastrado)
+        </dd>
+
+        <dd>
+            @Html.DisplayFor(model => model.Servicos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdServico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Produtos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdProduto)
+        </dt>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalPedido)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalPedido)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QtdParcela)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QtdParcela)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCheque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCheque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeEmitente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeEmitente)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CpfCnpjCheque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CpfCnpjCheque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContaCheque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContaCheque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValidadeCheque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValidadeCheque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroCartao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeroCartao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeImpresso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeImpresso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContaCartao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContaCartao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValidadeCartao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValidadeCartao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CartaoAtivo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CartaoAtivo)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Confirmar" class="btn btn-sm" /> |
+
+            @Ajax.ActionLink("Voltar a lista de Pedidos", "Index", "Pedidos",
+               null, new AjaxOptions()
+               {
+                   HttpMethod = "get",
+                   InsertionMode = InsertionMode.Replace
+               })
+        </div>
+    }
+</div>
+<hr />

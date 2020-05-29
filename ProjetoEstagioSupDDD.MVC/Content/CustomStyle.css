@@ -1,0 +1,81 @@
+﻿/********************************/
+/*          Carousel            */
+/********************************/
+ol.carousel-indicators li {
+    background: #7479db;
+}
+
+    ol.carousel-indicators li.active {
+        background: #090037;
+    }
+
+
+/********************************/
+/*          Jumbotron           */
+/********************************/
+.jumbotron {
+    color: #090037;
+    background-image: url('../imagens/jumbotron-img-0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: auto;
+    height: 325px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+/********************************/
+/*             Modal            */
+/********************************/
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+
+    .modal:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+    }
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+
+
+@media (max-width: 480px) {
+    #trr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    #tdr {
+        border: 0;
+    }
+
+    .table-action td {
+        display: block;
+    }
+
+    .table-responsive tr {
+        display: block;
+    }
+
+    .table-responsive th {
+        display: block;
+    }
+}
+
+
+

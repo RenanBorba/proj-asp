@@ -1,0 +1,39 @@
+﻿@model ProjetoEstagioSupDDD.MVC.Models.MarcaViewModel
+
+@{
+    ViewBag.Title = "Excluir";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Excluir Marca</h2>
+<h3>Você realmente deseja exluir a marca @Model.DescricaoMarca?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DescricaoMarca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescricaoMarca)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Confirmar" class="btn btn-sm" /> |
+
+            @Ajax.ActionLink("Voltar a lista de Marcas", "Index", "Marcas",
+                 null, new AjaxOptions()
+                 {
+                     HttpMethod = "get",
+                     InsertionMode = InsertionMode.Replace
+                 })
+        </div>
+    }
+</div>
+<hr />

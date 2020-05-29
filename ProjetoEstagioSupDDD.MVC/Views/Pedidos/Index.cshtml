@@ -1,0 +1,164 @@
+﻿@model IEnumerable<ProjetoEstagioSupDDD.MVC.Models.PedidoViewModel>
+
+@{
+    ViewBag.Title = "Pedidos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Pedidos</h2>
+<h4>Ordem de Serviço O.S</h4>
+<p>
+    @Ajax.ActionLink("Novo Pedidos", "Inserir", "Pedidos", null, new AjaxOptions()
+    {
+        HttpMethod = "get",
+        InsertionMode = InsertionMode.Replace
+    })
+
+    |@Ajax.ActionLink("Relatório Pedidos Gerais", "ListagemPedido", "Relatorios", null, new AjaxOptions()
+   {
+      HttpMethod = "get",
+      InsertionMode = InsertionMode.Replace
+   })
+</p>
+
+<p>Pesquisar por Nome de Cliente:
+    @using (Html.BeginForm("Index", "Pedidos", FormMethod.Get))
+    {
+        @Html.TextBox("Pesquisa")
+        <input type="submit" class="btn-sm" value="Pesquisar" />
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Clientes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClienteNaoCadastrado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Servicos)
+        </th>  
+        <th>
+            @Html.DisplayNameFor(model => model.Produtos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalPedido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QtdParcela)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroCheque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeEmitente)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CpfCnpjCheque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContaCheque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValidadeCheque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroCartao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeImpresso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContaCartao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValidadeCartao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CartaoAtivo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataCadastro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdCliente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClienteNaoCadastrado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdServico)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IdProduto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalPedido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QtdParcela)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroCheque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeEmitente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CpfCnpjCheque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContaCheque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ValidadeCheque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumeroCartao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeImpresso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContaCartao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ValidadeCartao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CartaoAtivo)
+        </td>
+        <td>
+            @Ajax.ActionLink("Alterar", "Alterar","Pedidos",
+                    new { id = item.IdPedido }, new AjaxOptions()
+                    {
+                        HttpMethod = "get",
+                        InsertionMode = InsertionMode.Replace
+                    })
+
+            |@Ajax.ActionLink("Excluir", "Excluir", "Pedidos",
+      new { id = item.IdPedido}, new AjaxOptions()
+      {
+          HttpMethod = "get",
+          InsertionMode = InsertionMode.Replace
+      })
+        </td>
+    </tr>
+}
+
+</table>

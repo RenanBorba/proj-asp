@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ProjetoEstagioSupDDD.MVC.Models.MarcaViewModel>
+
+@{
+    ViewBag.Title = "Marcas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Marcas</h2>
+<p>
+    @Ajax.ActionLink("Nova Marca", "Inserir", "Marcas", null, new AjaxOptions()
+    {
+        HttpMethod = "get",
+        InsertionMode = InsertionMode.Replace
+    })
+
+    |@Ajax.ActionLink("Relatório Marcas Gerais", "ListagemMarca", "Relatorios", null, new AjaxOptions()
+    {
+        HttpMethod = "get",
+        InsertionMode = InsertionMode.Replace
+    })
+</p>
+
+<p>
+    Pesquisar por Descrição:
+    @using (Html.BeginForm("Index", "Marcas", FormMethod.Get))
+    {
+        @Html.TextBox("Pesquisa")
+        <input type="submit" class="btn-sm" value="Pesquisar" />
+    }
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DescricaoMarca)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoMarca)
+            </td>
+            <td>
+                @Ajax.ActionLink("Alterar", "Alterar","Marcas",
+                    new { id = item.IdMarca }, new AjaxOptions()
+                    {
+                        HttpMethod = "get",
+                        InsertionMode = InsertionMode.Replace
+                    })
+
+                |@Ajax.ActionLink("Excluir", "Excluir","Marcas",
+                   new { id = item.IdMarca }, new AjaxOptions()
+                   {
+                       HttpMethod = "get",
+                       InsertionMode = InsertionMode.Replace
+                   })
+            </td>
+        </tr>
+    }
+</table>
+<hr />

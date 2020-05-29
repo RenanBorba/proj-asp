@@ -1,0 +1,106 @@
+﻿@model IEnumerable<ProjetoEstagioSupDDD.MVC.Models.ProdutoViewModel>
+
+@{
+    ViewBag.Title = "Pedidos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Produtos</h2>
+<h4>Controle de Estoque Virtual</h4>
+<p>
+    @Ajax.ActionLink("Novo Produto", "Inserir", "Produtos", null, new AjaxOptions()
+    {
+        HttpMethod = "get",
+        InsertionMode = InsertionMode.Replace
+    })
+
+    |@Ajax.ActionLink("Relatório Estoque Virtual Produtos Gerais", "ListagemProduto", "Relatorios", null, new AjaxOptions()
+   {
+      HttpMethod = "get",
+      InsertionMode = InsertionMode.Replace
+   })
+</p>
+
+<p>Pesquisar por Descrição:
+    @using (Html.BeginForm("Index", "Produtos", FormMethod.Get))
+    {
+        @Html.TextBox("Pesquisa")
+        <input type="submit" class="btn-sm" value="Pesquisar" />
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DescricaoProduto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValorCusto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValorVenda)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataCadastroProduto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataValidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fornecedores.DescricaoFornecedor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoProdutos.DescricaoTipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Marcas.DescricaoMarca)
+        </th>
+        
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoProduto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorCusto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorVenda)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataCadastroProduto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataValidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fornecedores.IdFornecedor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoProdutos.IdTipoProduto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marcas.IdMarca)
+            </td>          
+            <td>
+                @Ajax.ActionLink("Alterar", "Alterar","Produtos",
+                        new { id = item.IdProduto }, new AjaxOptions()
+                        {
+                            HttpMethod = "get",
+                            InsertionMode = InsertionMode.Replace
+                        })
+
+                |@Ajax.ActionLink("Excluir", "Excluir", "Produtos",
+                   new { id = item.IdProduto}, new AjaxOptions()
+                   {
+                       HttpMethod = "get",
+                       InsertionMode = InsertionMode.Replace
+                   })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,92 @@
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.dll.config
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.pdb
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.ValueTuple.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.ValueTuple.xml
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csprojAssemblyReference.cache
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csproj.CopyComplete
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.pdb
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.dll.config
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.pdb
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.ValueTuple.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.ValueTuple.xml
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csproj.CopyComplete
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.pdb
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.dll.config
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.pdb
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.ValueTuple.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.ValueTuple.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csproj.CopyComplete
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.pdb
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Owin.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Newtonsoft.Json.xml
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.dll.config
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.dll
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Persistencia.pdb
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\bin\Debug\System.ValueTuple.xml
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.csproj.CopyComplete
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.dll
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Persistencia\obj\Debug\ProjetoEstagioSupDDD.Persistencia.pdb

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ProjetoEstagioSupDDD.MVC.Models.ServicoViewModel>
+
+@if (Model.Count() > 0)
+{
+    <p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DescricaoServico)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ObservacaoServico)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ValorServico)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr class="selecionar-servico" servico-id="@item.IdServico">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescricaoServico)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ObservacaoServico)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorServico)
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </p>
+
+}
+else
+{
+    <p>
+        <h5>Nenhum serviço selecionado.</h5>
+        <h6>Aguardo você por aqui em breve!</h6>
+    </p>
+}
+

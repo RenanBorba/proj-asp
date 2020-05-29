@@ -1,0 +1,21 @@
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\bin\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\bin\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\bin\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\bin\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\bin\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\bin\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Dominio\bin\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Dominio\bin\Debug\ProjetoEstagioSupDDD.Dominio.pdb
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.dll
+C:\Users\casa\Desktop\CONTEUDO TEORICO-PRATICO PROGRAMATICO GRADUACAO S.I\CONTEUDO TRABALHO CONCLUSAO CURSO\ESTAGIO\proj-asp\ProjetoEstagioSupDDD.Dominio\obj\Debug\ProjetoEstagioSupDDD.Dominio.pdb

@@ -1,0 +1,16 @@
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\bin\Debug\ProjetoEstagioSupDDD.Aplicacao.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\bin\Debug\ProjetoEstagioSupDDD.Aplicacao.pdb
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.dll
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.pdb
+C:\Users\casa\source\repos\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\bin\Debug\ProjetoEstagioSupDDD.Aplicacao.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\bin\Debug\ProjetoEstagioSupDDD.Aplicacao.pdb
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.dll
+C:\Users\casa\Desktop\FACULDADE\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.pdb
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\bin\Debug\ProjetoEstagioSupDDD.Aplicacao.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\bin\Debug\ProjetoEstagioSupDDD.Aplicacao.pdb
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.dll
+C:\Users\casa\Desktop\FACULDADE\EST\ProjetoEstagioSupDDD\ProjetoEstagioSupDDD.Aplicacao\obj\Debug\ProjetoEstagioSupDDD.Aplicacao.pdb

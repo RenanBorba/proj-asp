@@ -1,0 +1,106 @@
+﻿@model IEnumerable<ProjetoEstagioSupDDD.MVC.Models.FuncionarioViewModel>
+
+@{
+    ViewBag.Title = "Funcionários";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Funcionários</h2>
+<p>
+    @Ajax.ActionLink("Novo Funcionário", "Inserir", "Funcionarios", null, new AjaxOptions()
+    {
+        HttpMethod = "get",
+        InsertionMode = InsertionMode.Replace
+    })
+
+    |@Ajax.ActionLink("Relatório Funcionários Gerais", "ListagemFuncionario", "Relatorios", null, new AjaxOptions()
+    {
+       HttpMethod = "get",
+       InsertionMode = InsertionMode.Replace
+    })
+</p>
+
+<p>
+    Pesquisar por Nome:
+    @using (Html.BeginForm("Index", "Funcionarios", FormMethod.Get))
+    {
+        @Html.TextBox("Pesquisa")
+        <input type="submit" class="btn-sm" value="Pesquisar" />
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Login)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Senha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoTelefone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumeroTelefone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AcessoWpp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Administrador)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Login)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Senha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoTelefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroTelefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AcessoWpp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Administrador)
+            </td>
+            <td>
+                @Ajax.ActionLink("Alterar", "Alterar","Funcionarios",
+                       new { id = item.IdFuncionario }, new AjaxOptions()
+                       {
+                           HttpMethod = "get",
+                           InsertionMode = InsertionMode.Replace
+                       })
+
+                |@Ajax.ActionLink("Excluir", "Excluir", "Funcionarios",
+              new { id = item.IdFuncionario}, new AjaxOptions()
+              {
+                  HttpMethod = "get",
+                  InsertionMode = InsertionMode.Replace
+              })
+            </td>
+        </tr>
+    }
+
+</table>
+<hr />

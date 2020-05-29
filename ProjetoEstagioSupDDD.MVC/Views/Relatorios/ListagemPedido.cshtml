@@ -1,0 +1,204 @@
+﻿@model PagedList.IPagedList<ProjetoEstagioSupDDD.Dominio.Entidades.Pedido>
+
+@{
+    ViewBag.Title = "Listagem Pedido";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="panel-heading">
+    <h2>Relatório Listagem de Pedidos</h2>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <tr>
+                        <th>
+                            Data Venda
+                        </th>
+                        <th>
+                            Cliente
+                        </th>
+                        <th>
+                            Cliente Não Cadastrado
+                        </th>
+                        <th>
+                            Serviço
+                        </th>
+                        <th>
+                            Produto
+                        </th>
+                        <th>
+                            Produto-2
+                        </th>
+                        <th>
+                            Produto-3
+                        </th>
+                        <th>
+                            Produto-4
+                        </th>
+                        <th>
+                            Total Pedido
+                        </th>
+                        <th>
+                            QTD Parcela
+                        </th>
+                        <th>
+                            Descrição Pagamento
+                        </th>
+                        <th>
+                            Número Cheque
+                        </th>
+                        <th>
+                            CpfCnpj Cheque
+                        </th>
+                        <th>
+                            Nome Emitente
+                        </th>
+                        <th>
+                            Conta Cheque
+                        </th>
+                        <th>
+                            Validade Cheque
+                        </th>
+                        <th>
+                            Número Cartão
+                        </th>
+                        <th>
+                            Banco Cartão
+                        </th>
+                        <th>
+                            Conta Cartão
+                        </th>
+                        <th>
+                            Nome Impresso
+                        </th>
+                        <th>
+                            Validade Cartão
+                        </th>
+                        <th>
+                            Cartão Ativo
+                        </th>
+                        <th></th>
+                    </tr>
+
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataVenda)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdCliente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cliente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdServico)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdProduto)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdProdutoSeg)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdProdutoTer)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdProdutoQua)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotalPedido)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.QtdParcela)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DescricaoPagamento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NumeroCheque)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CpfCnpjCheque)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NomeEmitente)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ContaCheque)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ValidadeCheque)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NumeroCartao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BancoCartao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ContaCartao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NomeImpresso)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ValidadeCartao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CartaoAtivo)
+                        </td>
+                    </tr>
+                    }
+                    <tr>
+                        <td><b>@Model.Count registro(s) de @Model.TotalItemCount</b></td>
+                        <td><a href="/Relatorios/ListagemServico?gerarPDF=true"><b>GERAR PDF</b></a></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+        @{
+            if (Model.TotalItemCount != Model.Count)
+            {
+                <div class="row">
+                    <div class="col-md-12">
+                        Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+
+                        @if (Model.HasPreviousPage)
+                        {
+                            @Html.ActionLink("<<", "ListagemPedido", new { pagina = 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter
+                        })
+                            @Html.Raw(" ");
+                            @Html.ActionLink("< Anterior", "ListagemPedido", new { pagina = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter
+                        })}
+
+                        else
+                        {
+                            @:<<
+                            @Html.Raw(" ");
+                            @:< Anterior
+                        }
+
+                        @if (Model.HasNextPage)
+                        {
+                            @Html.ActionLink("Próxima >", "ListagemPedido", new { pagina = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
+                            @Html.Raw(" ");
+                            @Html.ActionLink(">>", "ListagemPedido", new { pagina = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
+                        }
+                        else
+                        {
+                            @:Próxima >
+                            @Html.Raw(" ")
+                            @:>>
+                        }
+
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+

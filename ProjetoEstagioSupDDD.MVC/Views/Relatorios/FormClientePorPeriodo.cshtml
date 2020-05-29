@@ -1,0 +1,36 @@
+﻿@model ProjetoEstagioSupDDD.Dominio.Entidades.Cliente
+
+@{
+    ViewBag.Title = "FormClientesPorPeriodo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h2>Relatório Cliente/Período</h2>       
+    </div>
+        <div class="panel-body">
+            <form method="post" action="/Relatorios/ListagemClientePorPeriodo" id="frmCliente" class="form-horizontal">
+                <div class="form-group">
+                    <label for="dataInicial" class="col-sm-2 control-label">Data Inicial:</label>
+                    <div class="col-sm-10">
+                        <input type="date" class="form-control" id="dataInicial" name="dataInicial" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="dataFinal" class="col-sm-2 control-label">Data Final:</label>
+                    <div class="col-sm-10">
+                        <input type="date" class="form-control" id="dataFinal" name="dataFinal" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Gerar Relatório</button>
+                    </div>
+                </div>
+            </form>      
+    </div>   
+</div>

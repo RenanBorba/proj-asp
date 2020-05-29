@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Adriano Luiz</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/CustomStyle.css")
+    @Styles.Render("~/Content/font-awesome.css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top"
+         id="navbar-menu" style="background-color: rgba(239, 239, 239, 0.94)">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target=".navbar-collapse" aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#cabecalho">
+                    <img alt="Logo e Home" src="~/imagens/img-navbrand.png"
+                         class="img-responsive img-fluid">
+                </a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav col-md-auto">
+                    <li class="nav-item">
+                        @Ajax.ActionLink("Principal", "Index", "Home", null, new AjaxOptions()
+                        {
+                            HttpMethod = "get",
+                            InsertionMode = InsertionMode.Replace
+                        })
+                        <span class="sr-only"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#text-columns">Sobre</a>
+                        <span class="sr-only"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#thumbnail-cards">Serviços e Produtos</a>
+                        <span class="sr-only"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#text-inverse">Se torne um parceiro</a>
+                        <span class="sr-only"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#div-text-inverse-2">Fale conosco</a>
+                        <span class="sr-only"></span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#rodape">Contato</a>
+                        <span class="sr-only"></span>
+                    </li>
+                    @Html.Partial("_LoginPartial")
+                </ul>
+
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item dropdown" id="dropdownSetores">
+                        <a class=" nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">
+                            Área Admin<span class="caret"></span>
+                            <i class="glyphicon glyphicon-wrench"></i>
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-left"
+                            style="background-color: rgba(239, 239, 239, 0.94)">
+                            <li id="item-navbar-cliente">
+                                @Ajax.ActionLink("Cliente", "Index", "Clientes", null, new AjaxOptions()
+                                {
+                                    HttpMethod = "get",
+                                    InsertionMode = InsertionMode.Replace
+                                })
+                            </li>
+                            <li role="separator" class="divider"></li>
+
+                            <li id="item-navbar-fornecedor">
+                                @Ajax.ActionLink("Fornecedor", "Index", "Fornecedores", null, new AjaxOptions()
+                                {
+                                    HttpMethod = "get",
+                                    InsertionMode = InsertionMode.Replace
+                                })
+                            </li>
+                            <li role="separator" class="divider"></li>
+
+                            @if (this.User.IsInRole("Administrador"))
+                            {
+                            <li id="item-navbar-funcionario">
+                                @Ajax.ActionLink("Funcionário", "Index", "Funcionarios", null, new AjaxOptions()
+                                {
+                                    HttpMethod = "get",
+                                    InsertionMode = InsertionMode.Replace
+                                })
+                            </li>
+                            }
+                            <li role="separator" class="divider"></li>
+
+                            <li id="item-navbar-servico">
+                                @Ajax.ActionLink("Serviço", "Index", "Servicos", null, new AjaxOptions()
+                                {
+                                    HttpMethod = "get",
+                                    InsertionMode = InsertionMode.Replace
+                                })
+                            </li>
+                            <li role="separator" class="divider"></li>
+
+                            <li id="item-navbar-produto">
+                                @Ajax.ActionLink("Produto", "Index", "Produtos", null, new AjaxOptions()
+                                {
+                                    HttpMethod = "get",
+                                    InsertionMode = InsertionMode.Replace
+                                })
+                            </li>
+                            <li>
+                                @Ajax.ActionLink("Tipo de Produto", "Index", "TipoProdutos", null,
+                                new AjaxOptions()
+                                {
+                                    HttpMethod = "get",
+                                    InsertionMode = InsertionMode.Replace
+                                })
+                            </li>
+                          
+                            <li>
+                                @Html.ActionLink("Marca", "Index", "Marcas", null, new AjaxOptions()
+                                {
+                                    HttpMethod = "get",
+                                    InsertionMode = InsertionMode.Replace
+                                })
+                            </li>                           
+                            <li role="separator" class="divider"></li>
+
+
+                            @if (this.User.IsInRole("Administrador"))
+                            {
+                                <li id="item-navbar-pedido">
+                                    @Ajax.ActionLink("Pedido", "Index", "Pedidos", null, new AjaxOptions()
+                                {
+                                   HttpMethod = "get",
+                                   InsertionMode = InsertionMode.Replace
+                                })
+                                </li>
+                            }
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé Layout -->
+    <div class="container body-content">
+        @RenderBody()
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Adriano Luiz - Prestação de Serviços Químicos </p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

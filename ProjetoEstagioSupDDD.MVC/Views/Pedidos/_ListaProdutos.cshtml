@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ProjetoEstagioSupDDD.MVC.Models.ProdutoViewModel>
+
+@if (Model.Count() > 0)
+{
+    <p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DescricaoProduto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ValorCusto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ValorVenda)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataCadastroProduto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataValidade)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr class="selecionar-produto" produto-id="@item.IdProduto">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescricaoProduto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorCusto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorVenda)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataCadastroProduto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataValidade)
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </p>
+}
+else
+{
+    <p>
+        <h5>Nenhum Produto selecionado.</h5>
+        <h6>Aguardo você por aqui em breve!</h6>
+    </p>
+}
