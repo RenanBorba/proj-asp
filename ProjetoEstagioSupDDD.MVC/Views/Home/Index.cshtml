@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -11,7 +11,7 @@
     padding-left: 14px">
         <form method="get" action="http://www.google.com/search">
             <input type="text" name="q" size="22" maxlength="255" value="" />
-            <input type="submit" class="btn-sm" value="Buscar" />
+            <input type="submit" class="btn" value="Buscar" />
             <br />
             <input type="radio" name="sitesearch" value="" />
             Google
@@ -75,48 +75,6 @@
 </header>
 
 
-<section id="text-columns">
-    <br />
-    <div class="row"
-         style="margin-top: 40px; align-content: center;">
-        <div class="col-md-4 text-center">
-            <h2>Sobre</h2>
-            <p>
-                Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum. Phasellus sed mi
-                non est congue efficitur non sed ex.Integer urna purus, blandit vitae est id, tempus
-                feugiat nunc.Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum.
-            </p>
-            <button type="button" class="btn btn-sm" data-toggle="modal"
-                    data-target="#modal-exemplo">Leia mais!
-            </button>
-            <br />
-        </div>
-        <div class="col-md-4 text-center">
-            <br />
-            <img src="~/imagens/img-circle.jpg" class="img-circle img-responsive" style="height: 350px; width: 350px;" alt="Profissional Adriano">
-            <h2>Profissional qualificado</h2>
-            <p>
-                Porta dolor eu nisi aliquet, nec fringilla velit elementum. Phasellus sed mi non est congue
-                efficitur non sed ex.
-                Blandit vitae est id, tempus feugiat nunc, etiam porta dolor.
-            </p>
-        </div>
-        <div class="col-md-4 text-center">
-            <h2>Experiência de mercado</h2>
-            <p>
-                Nisi aliquet, nec fringilla velit elementum. Phasellus sed mi non est congue efficitur.
-                blandit vitae est id, tempus feugiat nunc.Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum.
-                Phasellus sed mi non est congue!
-            </p>
-            <button type="button" class="btn btn-sm" data-toggle="modal"
-                    data-target="#modal-exemplo">Leia mais!
-            </button>
-            <br />
-        </div>
-    </div>
-</section>
-
-
 
 <!-- Jumbotron-->
 <section id="my-jumbotron">
@@ -127,7 +85,7 @@
                     <h1 class="display-4">
                         <i class="fa fa-flask text-primary"
                            style=" margin-right: 11px;
-                                color:#090037" aria-hidden="true">
+                            color:#090037" aria-hidden="true">
                         </i>
                         Adriano Luiz - Serviços Químicos
                     </h1>
@@ -137,15 +95,125 @@
                 </div>
             </div>
         </div>
-        <br />
     </div>
 </section>
 
 
 
-<section id="thumbnail-cards" style="background-color: rgba(170, 170, 170, 0.095);">
-    <br />
-    <dv class="row">
+<section id="text-columns">
+    <div class="row"
+         style="margin-top: 40px; align-content: center;">
+        <div class="col-md-4 text-center">
+            <br />
+            <img src="~/imagens/img-circle.jpg" class="img-circle img-responsive" style="height: 350px; width: 350px;" alt="Profissional Adriano">
+            <h2>Profissional qualificado</h2>
+            <p>
+                Porta dolor eu nisi aliquet, nec fringilla velit elementum. Phasellus sed mi non est congue
+                efficitur non sed ex.
+                Blandit vitae est id, tempus feugiat nunc, etiam porta dolor.
+            </p>
+        </div>
+
+
+        <div id="thumbnail-cards-text-col">
+            <br />
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h2>Sobre</h2>
+                        <p>
+                            Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum. Phasellus sed mi
+                            non est congue efficitur non sed ex.Integer urna purus, blandit vitae est id, tempus
+                            feugiat nunc.Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum.
+                        </p>
+                        <button type="button" class="btn" data-toggle="modal"
+                                data-target="#modal-exemplo">
+                            Leia mais!
+                        </button>
+                        <br />
+                    </div>
+                </div>
+                <br />
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h2>Experiência de mercado</h2>
+                        <p>
+                            Nisi aliquet, nec fringilla velit elementum. Phasellus sed mi non est congue efficitur.
+                            blandit vitae est id, tempus feugiat nunc.Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum.
+                            Phasellus sed mi non est congue!
+                        </p>
+                        <button type="button" class="btn" data-toggle="modal"
+                                data-target="#modal-exemplo">
+                            Leia mais!
+                        </button>
+                        <br />
+                    </div>
+                </div>
+                <br />
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h2>Referência</h2>
+                        <p>
+                            Nisi aliquet, nec fringilla velit elementum. Phasellus sed mi non est congue efficitur.
+                            blandit vitae est id, tempus feugiat nunc.Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum.
+                            Phasellus sed mi non est congue!
+                        </p>
+                        <button type="button" class="btn" data-toggle="modal"
+                                data-target="#modal-exemplo">
+                            Leia mais!
+                        </button>
+                        <br />
+                    </div>
+                </div>
+                <br />
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h2>Praticidade</h2>
+                        <p>
+                            Nisi aliquet, nec fringilla velit elementum. Phasellus sed mi non est congue efficitur.
+                            blandit vitae est id, tempus feugiat nunc.Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum.
+                            Phasellus sed mi non est congue!
+                        </p>
+                        <button type="button" class="btn" data-toggle="modal"
+                                data-target="#modal-exemplo">
+                            Leia mais!
+                        </button>
+                        <br />
+                    </div>
+                </div>
+                <br />
+            </div>
+            <br />
+        </div>
+    </div>
+    <br /><br /><br />
+</section>
+
+
+
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/"></iframe>
+</div>
+
+
+<br /><br /><br />
+<br /><br />
+
+
+<section id="thumbnail-cards" 
+    style="background-color: rgba(170, 170, 170, 0.095); border-radius: 5px; padding-left: 10px; padding-right: 10px">
+    <br /><br />
+    <div class="row">
         <h1 class="text-center" style="color:#090037">O nosso serviço químico ao seu alcance!</h1>
 
         <div class="col-sm-6 col-md-4">
@@ -179,7 +247,8 @@
         </div>
 
         <div class="col-sm-6 col-md-4">
-            <div class="thumbnail" style="background-color: rgba(170, 170, 170, 0.065);">
+            <div class="thumbnail" 
+                 style="background-color: rgba(170, 170, 170, 0.065);">
                 <img src="~/imagens/thumbnail-3.png" class="img-responsive" alt="Aperto de mão">
                 <div class="caption">
                     <h3>Pedidos</h3>
@@ -187,7 +256,7 @@
                         Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum.
                         Est congue efficitur non sed ex. Integer urna purus, blandit vitae.
                         Integer urna purus, blandit vitae est id, tempus feugiat nunc.
-                        Est congue efficitur non sed Integer vitae.
+                        Est conue efficitur non Integer vitae, bladit vite noid.
                     </p>
                     <button type="button" class="btn btn-default" data-toggle="modal"
                             data-target="#modal-exemplo">
@@ -196,9 +265,10 @@
                 </div>
             </div>
         </div>
-    </dv>
+    </div>
     <br />
 </section>
+
 
 
 <section id="text-inverse">
@@ -210,7 +280,7 @@
                 <h2 class="display-3">
                     <i class="fa fa-handshake-o text-primary"
                        style="margin-right: 11px;
-                        color: #272727" aria-hidden="true"></i>Marque uma visita!
+                    color: #272727" aria-hidden="true"></i>Marque uma visita!
                 </h2>
                 <p class="text-justify">
                     Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum. Phasellus sed mi non est congue efficitur non sed ex.
@@ -224,7 +294,7 @@
                 <h1 class="display-3">
                     <i class="fa fa-map-marker text-primary"
                        style="margin-right:11px;
-                        color: #272727" aria-hidden="true"></i>Nos encontre aqui:
+                    color: #272727" aria-hidden="true"></i>Nos encontre aqui:
                 </h1>
                 <p class="text-justify" style="padding-bottom: 150px">
                     Etiam porta dolor eu nisi aliquet, nec fringilla velit elementum. Phasellus sed mi non est congue efficitur non sed ex.
@@ -265,7 +335,7 @@
         <div class="col-sm-2">
             <img src="//assets.pagseguro.com.br/ps-integration-assets/banners/pagamento/todos_animado_125_150.gif"
                  alt="Logotipos de meios de pagamento do PagSeguro" title="Este site aceita pagamentos com as principais bandeiras e
-             bancos, saldo em conta PagSeguro e boleto.">
+            bancos, saldo em conta PagSeguro e boleto.">
 
 
             <img style="margin-top: 25px" src="//assets.pagseguro.com.br/ps-integration-assets/banners/seguranca/seguranca_125x125.gif"
@@ -278,7 +348,7 @@
                 <a href="#cabecalho" class="list-group-item list-group-item-action list-group-item-secondary">Início</a>
                 <a href="#text-columns" class="list-group-item list-group-item-action list-group-item-secondary">Sobre</a>
                 <a href="#thumbnail-cards" class="list-group-item list-group-item-action list-group-item-secondary">Serviços e Produtos</a>
-                <a href="#text-inverse" class="list-group-item list-group-item-action list-group-item-secondary">Se torne um parceiro</a>               
+                <a href="#text-inverse" class="list-group-item list-group-item-action list-group-item-secondary">Se torne um parceiro</a>
             </div>
         </div>
 
@@ -288,27 +358,24 @@
             <div class="list-group text-center">
                 <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">
                     Instagram<i class="fa fa-instagram
-                text-primary" style="margin-left: 11px; color: #000" aria-hidden="true"></i>
+            text-primary" style="margin-left: 11px; color: #000" aria-hidden="true"></i>
                 </a>
                 <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">
                     Facebook<i class="fa fa-facebook-official
-                text-primary" style="margin-left: 11px; color: #000" aria-hidden="true"></i>
+            text-primary" style="margin-left: 11px; color: #000" aria-hidden="true"></i>
                 </a>
                 <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">
                     Linkedin<i class="fa fa-linkedin-square
-                text-primary" style="margin-left: 11px; color: #000" aria-hidden="true"></i>
+            text-primary" style="margin-left: 11px; color: #000" aria-hidden="true"></i>
                 </a>
                 <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">
                     Whatsapp<i class="fa fa-whatsapp
-                text-primary" style="margin-left: 11px; color: #000" aria-hidden="true"></i>
+            text-primary" style="margin-left: 11px; color: #000" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
     </div>
 </section>
-
-
-
 
 
 
