@@ -40,7 +40,7 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponív
   <li>Dê um fork nesse repositório</li>
   <li>Crie a sua branch com a feature</li>
     <ul>
-      <li>git checkout -b my-feature/li>
+      <li>git checkout -b my-feature</li>
     </ul>
   <li>Commit a sua atualização</li>
     <ul>
