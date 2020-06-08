@@ -35,6 +35,24 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponív
 </ul>
 <br><br><br>
 
+## :punch: Como contribuir 
+<ul>
+  <li>Dê um fork nesse repositório</li>
+  <li>Crie a sua branch com a feature</li>
+    <ul>
+      <li>git checkout -b my-feature/li>
+    </ul>
+  <li>Commit a sua atualização</li>
+    <ul>
+      <li>git commit -m 'feat: My feature'</li>
+    </ul>
+  <li>Push a sua branch</li>
+    <ul>
+      <li>git push origin my-feature</li>
+    </ul>
+</ul>
+<br><br><br>
+
 ## Tela Login
  
 ![login](https://user-images.githubusercontent.com/48495838/80426892-0b6b4f80-88bd-11ea-91a9-ba907609357d.jpg)
@@ -110,7 +128,7 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponív
 
 
 ## Tela Inicial Pedido
-Podemos notar que o principal foco da plataforma é a gestão de Ordem de Serviço (O.S), ou seja, a confecção e comercialização de serviços independe da compra de produtos, já que os mesmos são antes pré listados de acordo com o seu uso (onde muitas das vezes os valores agregados dos produtos se encontram embutidos ao do serviço prestado), e em sua maioria já estão na posse do Adriano, o uso geral é mínimo e dificilmente ultrapassa a quantidade de 1UN. Devemos destacar também que é de extrema importância que as informações referentes sejam armazenadas junto ao sistema, como principalmente os dados dos respectivos pedidos.  <br><br>
+Podemos notar que o principal foco da plataforma é a gestão de Ordem de Serviço (O.S), ou seja, a confecção e comercialização de serviços independe da compra de produtos, já que os mesmos são antes pré selecionados de acordo com o seu uso (onde muitas das vezes os valores agregados dos produtos se encontram embutidos ao do serviço prestado), e em sua maioria já estão na posse do Adriano, o uso geral é mínimo e dificilmente ultrapassa quantidades significativas de matérias-primas. Devemos destacar também que é de extrema importância que as informações referentes sejam armazenadas junto ao sistema, como principalmente os dados dos respectivos pedidos.  <br><br>
 
 ![100](https://user-images.githubusercontent.com/48495838/78170178-f1a72b80-7428-11ea-9beb-85a85d938392.png)
 
