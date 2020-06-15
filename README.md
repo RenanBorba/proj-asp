@@ -18,7 +18,16 @@
 O sistema pode-se assemelhar com um portfólio online e até mesmo um portal de informação, como os inúmeros que nos deparamos no nosso cotidiano.
 Sua interface segue de acordo com os sites atuais de fornecimento de mesmos serviços. Encontraremos menus, divisórias com conteúdo no layout do site (design single page), entre outros elementos, onde o usuário possa identificar características semelhantes e já familiarizadas.
 A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponível e portável, sendo capaz de ser um cartão de visitas para clientes já fidelizados e em potencial.</p>
-<br>
+
+<br><br>
+
+<div align="center">
+  
+![asp](https://user-images.githubusercontent.com/48495838/84690689-43842b80-af19-11ea-9338-8a717ca608e6.png)
+
+</div>
+
+<br><br>
 
 ## :rocket: Tecnologias 
 <ul>
