@@ -66,20 +66,20 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponív
  
 ![login](https://user-images.githubusercontent.com/48495838/80426892-0b6b4f80-88bd-11ea-91a9-ba907609357d.jpg)
 
-<br><br>
+<br><br><br>
 
 ## Menu Principal
 
 ![08](https://user-images.githubusercontent.com/48495838/54567808-d9967280-49b3-11e9-9077-3381951dcd38.jpg)
 
 
-<br><br>
+<br><br><br>
 
 ## Tela Inicial Cliente
 
 ![clientes](https://user-images.githubusercontent.com/48495838/80748618-93d73380-8afb-11ea-8020-44c717ee72c2.jpg)
 
-<br><br>
+<br><br><br>
 
 ## Interfaces de Relatórios
 
@@ -90,50 +90,51 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponív
 
 ![11](https://user-images.githubusercontent.com/48495838/54567908-3003b100-49b4-11e9-9a20-281085676b2e.jpg)
 
-<br>
+<br><br>
 
 ![12](https://user-images.githubusercontent.com/48495838/54567929-47429e80-49b4-11e9-9381-f3fa31249817.jpg)
+
+<br><br>
 
 ![13](https://user-images.githubusercontent.com/48495838/54567973-67725d80-49b4-11e9-8615-25546898ca9e.jpg)
 
 
-<br><br>
+<br><br><br>
 
 ## Tela Inicial Tipo e Marca do Produto
 
 ![tipo](https://user-images.githubusercontent.com/48495838/64790848-26b36580-d54d-11e9-9b36-f5bcef18643d.png)
 
-<br> 
+<br><br>
 
 ![marca](https://user-images.githubusercontent.com/48495838/64790862-2a46ec80-d54d-11e9-8c24-1e398cc63259.png)
 
-<br><br> 
+<br><br><br>
 
 
 ## Interface Relatório Geral das Marcas
-</ul>
 
 ![rel marca](https://user-images.githubusercontent.com/48495838/64791859-b9083900-d54e-11e9-9825-d53269bad869.png)
 
-<br>
+<br><br>
 
 ![rel marca pdf](https://user-images.githubusercontent.com/48495838/64791879-c1607400-d54e-11e9-8abb-40925d4029cb.png)
 
-<br><br>
+<br><br><br>
 
 
 ## Tela Cadastro Produto
 
 ![produto](https://user-images.githubusercontent.com/48495838/64739861-bb747f80-d4c9-11e9-85a9-3b319071939f.jpg)
 
-<br><br>
+<br><br><br>
 
 
 ## Tela Cadastro Serviço
 
 ![servico](https://user-images.githubusercontent.com/48495838/64791192-b822d780-d54d-11e9-94f4-2758aee50370.png)
 
-<br><br>
+<br><br><br>
 
 
 ## Tela Inicial Pedido
