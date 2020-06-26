@@ -5,6 +5,10 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+ * {
+    margin: 0;
+    padding: 0;
+  }
 
 html {
   font-family: 'Lucida Sans';
