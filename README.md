@@ -23,7 +23,7 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponív
 
 <div align="center">
   
-![asp](https://user-images.githubusercontent.com/48495838/84691421-7e3a9380-af1a-11ea-9ac0-ad0a25d88748.png)
+![est](https://user-images.githubusercontent.com/48495838/85905713-86c87f00-b7e2-11ea-9217-35be08bd610a.png)
 
 </div>
 
@@ -150,13 +150,9 @@ Podemos notar que o principal foco da plataforma é a gestão de Ordem de Servi�
 
 <br><br><br><br>
 
-
 ## Home
 <div align="center">
-
-![Meu-Vdeo](https://user-images.githubusercontent.com/48495838/83302920-8bdde280-a1d2-11ea-88c0-758402244541.gif)
-
-<br><br>
  
-![home](https://user-images.githubusercontent.com/48495838/83302799-520cdc00-a1d2-11ea-80c2-5e418fe88dfe.png)
+![home](https://user-images.githubusercontent.com/48495838/85905715-88924280-b7e2-11ea-85c4-284dcf4e902c.png)
+
 </div>
