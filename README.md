@@ -23,7 +23,7 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponív
 
 <div align="center">
   
-![est](https://user-images.githubusercontent.com/48495838/85905713-86c87f00-b7e2-11ea-9217-35be08bd610a.png)
+![est](https://user-images.githubusercontent.com/48495838/85905778-bc6d6800-b7e2-11ea-892d-edd296f0ec28.png)
 
 </div>
 
