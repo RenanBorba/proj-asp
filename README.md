@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![Build Status](https://img.shields.io/github/stars/RenanBorba/proj-asp.svg)](https://github.com/RenanBorba/proj-asp)
+[![Generic badge](https://img.shields.io/badge/Made%20by-Renan%20Borba-purple.svg)](https://shields.io/) [![Build Status](https://img.shields.io/github/stars/RenanBorba/proj-asp.svg)](https://github.com/RenanBorba/proj-asp) [![Build Status](https://img.shields.io/github/forks/RenanBorba/proj-asp.svg)](https://github.com/RenanBorba/proj-asp)
 
 </div>
 
@@ -163,7 +163,3 @@ Podemos notar que o principal foco da plataforma é a gestão de Ordem de Servi�
 <br><br><br>
 
 </div>
-
-<br><br>
-
-Renan Borba.
