@@ -16,8 +16,8 @@
 
 <p>O sistema provê funcionalidades que permitem melhor experiência de navegação na internet. Onde, é possível manter o melhor relacionamento com clientes e fornecedores de produtos químicos, melhor divulgação dos serviços disponíveis, além de conter funcionalidades mínimas de gerenciamento.
 O sistema pode-se assemelhar com um portfólio online e até mesmo um portal de informação, como os inúmeros que nos deparamos no nosso cotidiano.
-Sua interface segue de acordo com os sites atuais de fornecimento de mesmos serviços. Encontraremos menus, divisórias com conteúdo no layout do site (design single page), entre outros elementos, onde o usuário possa identificar características semelhantes e já familiarizadas.
-A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponível, portável e com o design "clean", sendo capaz de ser um cartão de visitas para clientes já fidelizados e em potencial.</p>
+Sua interface segue de acordo com os sites atuais de fornecimento de mesmos serviços. Encontraremos menus, divisórias com conteúdo no layout do site (Single Page), entre outros elementos, onde o usuário possa identificar características semelhantes e já familiarizadas.
+A aplicação se propõe em ser fácil de utilizar, eficiente, segura, disponível, portável e com o design "clean", sendo capaz de ser um cartão de visitas para clientes já fidelizados e em potencial, assim como um sistema gerêncial.</p>
 
 <br><br>
 
