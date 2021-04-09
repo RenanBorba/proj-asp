@@ -21,14 +21,6 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, seguro, disponív
 
 <br><br>
 
-<div align="center">
-  
-![est](https://user-images.githubusercontent.com/48495838/85905778-bc6d6800-b7e2-11ea-892d-edd296f0ec28.png)
-
-</div>
-
-<br><br>
-
 ## :rocket: Tecnologias 
 <ul>
   <li>.NET Framework</li>
