@@ -145,6 +145,6 @@ Podemos notar que o principal foco da plataforma é a gestão de Ordem de Servi�
 ## Home
 <div align="center">
  
-![home-single](https://user-images.githubusercontent.com/48495838/114469183-0a612a00-9bc3-11eb-86aa-23b83e687478.png)
+![home-single](https://user-images.githubusercontent.com/48495838/114471551-367eaa00-9bc7-11eb-9e2f-703f5cde7f31.png)
 
 </div>
