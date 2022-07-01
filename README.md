@@ -138,13 +138,13 @@ Podemos notar que o principal foco da plataforma é a gestão de Ordem de Servi�
 
 ## Tela Cadastro Pedido
 
-![pedido](https://user-images.githubusercontent.com/48495838/80538067-73806b00-897b-11ea-87aa-cb664a001543.png)
+![pedido](https://user-images.githubusercontent.com/48495838/176894319-c367afeb-e7f7-472e-8cfd-cb4b9831ebb8.png)
 
 <br><br><br><br>
 
 ## Home
 <div align="center">
  
-![home-single](https://user-images.githubusercontent.com/48495838/114574969-1ba44800-9c50-11eb-8ea8-d68e87fcfc8b.png)
+![home](https://user-images.githubusercontent.com/48495838/176894053-9c005626-fb9b-4850-84ee-e7ff52e2eff2.png)
 
 </div>
