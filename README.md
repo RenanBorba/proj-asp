@@ -130,7 +130,7 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, segura, disponív
 
 
 ## Tela Inicial Pedido
-Podemos notar que o principal foco da plataforma é a gestão de Ordem de Serviço (O.S), ou seja, a confecção e comercialização de serviços independe da compra de produtos, já que os mesmos são antes pré selecionados de acordo com o seu uso (onde muitas das vezes os valores agregados dos produtos se encontram embutidos ao do serviço prestado), e em sua maioria já estão na posse do Adriano, seu uso geral é mínimo e dificilmente ultrapassa quantidades significativas de matérias-primas. Devemos destacar também que é de extrema importância que as informações referentes sejam armazenadas junto ao sistema, como principalmente os dados dos respectivos pedidos.  <br><br>
+Podemos notar que o principal foco da plataforma é a gestão de Ordem de Serviço (O.S), ou seja, a confecção e comercialização de serviços independe da compra de produtos, já que os mesmos são pré-selecionados de acordo com o seu uso (onde muitas das vezes os valores agregados dos produtos se encontram embutidos ao do serviço prestado), e em sua maioria já estão na posse do Adriano e seu uso geral é mínimo e dificilmente ultrapassa quantidades significativas de matérias-primas. Devemos destacar também que é de extrema importância que as informações referentes sejam armazenadas junto ao sistema, como principalmente os dados dos respectivos pedidos. <br><br>
 
 ![100](https://user-images.githubusercontent.com/48495838/78170178-f1a72b80-7428-11ea-9beb-85a85d938392.png)
 
