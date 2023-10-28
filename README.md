@@ -10,6 +10,10 @@
 
 [![Generic badge](https://img.shields.io/badge/Made%20by-Renan%20Borba-purple.svg)](https://shields.io/) [![Build Status](https://img.shields.io/github/stars/RenanBorba/proj-asp.svg)](https://github.com/RenanBorba/proj-asp) [![Build Status](https://img.shields.io/github/forks/RenanBorba/proj-asp.svg)](https://github.com/RenanBorba/proj-asp)
 
+<br>
+
+![logo](https://github.com/RenanBorba/web-secondary/assets/48495838/739e3c7f-a35d-4eb3-8fac-ef8abcb73328)
+
 </div>
 
 <br>
@@ -33,6 +37,9 @@ A aplicação se propõe em ser fácil de utilizar, eficiente, segura, disponív
     </ul>
   <li>SQL Server</li> 
   <li>Bootstrap 3</li> 
+   <ul> 
+    <li>Layout front-end puro</li>
+   </ul>
 </ul>
 <br><br><br>
 
